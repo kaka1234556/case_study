@@ -1,0 +1,72 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.jpg">
+<center>
+  <h3 class="btn btn-info heading">Case study
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+        We are using 2 test images
+         
+        <br>
+          <div class="btn heading_div2">
+          Google Lens or Mobile-net
+          </div>
+        </div>
+    <br>
+  </h3>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 results" >
+    <h3>Test-Image 1</h3>
+    <label class="object_name">Head phones</label>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKPvifkPqdONmA_s1HVNcMwVv32_R6c2qsQ&usqp=CAU">
+  <div class="result_para_tag">
+ <h3>Results from Google-lens</h3>
+  <label id="result_google_lens"></label>
+  </div>
+  <div class="result_para_tag">
+    <h3>Results from Mobile-net</h3>
+    <label id="result_google_lens"></label>
+     </div>
+<label<span id="result_final"></span>></label>
+   </div>  
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 results" >
+    <h3>Test-Image 2</h3>
+    <label class="object_name">Water bottle</label>
+  <img src="https://p.kindpng.com/picc/s/676-6761546_adidas-squeeze-water-bottle-hd-png-download.png">
+  <div class="result_para_tag">
+ <h3>Results from Google-lens</h3>
+  <label id="result_google_lens"></label>
+  </div>
+  <div class="result_para_tag">
+    <h3>Results from Mobile-net</h3>
+    <label id="result_google_lens"></label>
+     </div>
+<label<span id="result_final"></span>></label>
+   </div>  
+  
+</center>
+<div class="conclusion">
+Conclusion-
+</div>
+
+<div class="copy_right_footer">
+  Developed By-Krishna Singla
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
